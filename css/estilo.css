@@ -1,0 +1,28 @@
+table, 
+table tr td, 
+table tr th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+header {
+    display: flex;
+    border-bottom: 0.5rem solid var(--secondary);
+  }
+  header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  header ul li {
+    margin: 0 1rem;
+  }
+  header ul li a {
+    text-decoration: none;
+    color: var(--primary);
+  }
